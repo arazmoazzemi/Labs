@@ -152,7 +152,7 @@ sudo netplan app
 
 
 - ***Preparing Machine Images for qemu/kvm***
-
+```
 # PnetLab qcow2 image
 
 
@@ -162,6 +162,7 @@ tar -xfv PNET_4.2.10.ova
 
 qemu-img convert -O qcow2 PNET_4.2.10-disk1.vmdk PNET_4.2.10-disk1.qcow2
 
+```
 
 - ***Change PNET Lab ip address***
 
