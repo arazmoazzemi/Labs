@@ -266,6 +266,8 @@ reboot
 
 ```
 - ***Resize Disk Size***
+- 
+```
 #host
 
 du -h /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2
@@ -304,7 +306,7 @@ resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
 
 https://packetpushers.net/ubuntu-extend-your-default-lvm-space/
 
-
+```
 
 
 -----------------------------PnetLab-Images----------------------------------
