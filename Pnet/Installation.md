@@ -17,19 +17,13 @@ sudo usermod -aG kvm $USER
 sudo usermod -aG libvirt oneadmin
 sudo usermod -aG kvm oneadmin
 ```
-------------kvm-ACL--------------------------------------------------------
 
-sudo getfacl -e /home/it
-sudo setfacl -m u:it:rx /home/it
+***show group members***
 
-id it
-id root
-id oneadmin
-
--------------------------show-group-members-------------------------------
+```
 getent group libvirt
 getent group kvm
-
+```
 ----------------------nested virtualization--------------------------------
 # Before enabling nested VT feature, power off all running VMs.
 
