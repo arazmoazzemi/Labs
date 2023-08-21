@@ -276,8 +276,8 @@ qemu-img resize /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2 +200G
 
 #VM
 
+- ***Fix disk errors***
 
------------------fix_disk_errors------------------------
 parted -l
 #type fix
 
