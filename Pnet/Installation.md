@@ -25,7 +25,7 @@ getent group libvirt
 getent group kvm
 ```
 
-- ***Enable nested virtualization***
+- ***Enable nested virtualization:***
 ```
 # Before enabling nested VT feature, power off all running VMs.
 
