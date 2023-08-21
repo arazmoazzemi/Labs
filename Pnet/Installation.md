@@ -107,7 +107,7 @@ virsh net-destroy default
 virsh net-start default
 
 ```
-- ***Create a bridge with yaml config***
+- ***Create a bridge with yaml config:***
 
 ```
 # default network is enp1s0
