@@ -186,8 +186,7 @@ virt-install --name PnetLab --memory 16384 --vcpus 18 --disk /home/it/nvme01/ima
 
 ```
 
-
---------------------------install on kvm-host-----------------------------------------------------
+- ***Example for install on kvm-host***
 
 virt-install \
    -n vm_name \
