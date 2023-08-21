@@ -170,7 +170,7 @@ reboot
 
 ```
 
-- ***OSINFO***
+- ***OSINFO installation:***
 
 ```
 sudo apt install osinfo-db-tools
