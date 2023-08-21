@@ -257,6 +257,7 @@ reboot
 
 - ***Upgrade to versiion 5.3.11***
 
+```
 unzip 5.3.11 -d ./upgrade > /dev/null 2>&1
 
 chmod 755 -R upgrade  
@@ -267,7 +268,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 
 reboot
 
-
+```
 - ***Resize Disk Size***
 #host
 
