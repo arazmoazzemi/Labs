@@ -9,7 +9,7 @@ systemctl enable libvirtd && systemctl start libvirtd
 systemctl status libvirtd
 ```
 
-- ***Configure KVM***
+- ***Configure KVM:***
 ```
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
