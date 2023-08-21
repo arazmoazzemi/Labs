@@ -1,20 +1,22 @@
-Install kvm
 
 
+***Install kvm***
+
+```
 apt-get update && apt-get -y upgrade
 apt-get -y install qemu-kvm libvirt-dev libvirt-daemon-system virtinst virt-manager virt-viewer libvirt-clients bridge-utils oz libguestfs-tools uuid-runtime curl linux-source xauth ssh-askpass libosinfo-bin  
 systemctl enable libvirtd && systemctl start libvirtd
 systemctl status libvirtd
+```
 
+***Configure KVM***
+```
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
 
 sudo usermod -aG libvirt oneadmin
 sudo usermod -aG kvm oneadmin
-
-
-حتما وان ادمین باید عضو ای تی باشد چون فقط ماشین های خودش اجرا می شود
-usermod -aG it oneadmin
+```
 ------------kvm-ACL--------------------------------------------------------
 
 sudo getfacl -e /home/it
