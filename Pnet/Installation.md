@@ -76,8 +76,6 @@ virsh net-undefine default
 ip link delete virbr0
 
 
-
-
 #add below
 
 nano /etc/libvirt/qemu/networks/vmbr0.xml
