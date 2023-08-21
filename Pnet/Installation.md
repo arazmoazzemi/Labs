@@ -188,6 +188,7 @@ virt-install --name PnetLab --memory 16384 --vcpus 18 --disk /home/it/nvme01/ima
 
 - ***Example for install on kvm-host***
 
+```
 virt-install \
    -n vm_name \
    --connect=qemu:///system \
@@ -200,6 +201,7 @@ virt-install \
    --network bridge=virbr0,model=virtio \
    --boot hd
 
+```
 -------------------
 sysctl -p
 
