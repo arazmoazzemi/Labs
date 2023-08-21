@@ -255,7 +255,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 reboot
 ```
 
------------------------------------------------5.3.11---------------------------------
+- ***Upgrade to versiion 5.3.11***
 
 unzip 5.3.11 -d ./upgrade > /dev/null 2>&1
 
