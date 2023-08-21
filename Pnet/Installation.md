@@ -217,8 +217,6 @@ iptables -P FORWARD ACCEPT
 iptables -F
 ```
 
-
-
 - ***Upgrade PNET Lab***
 ```
 #upload files to /tmp/
