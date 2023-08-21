@@ -64,8 +64,8 @@ Find "cpu mode" parameter and set its value as "host-model".
 <cpu mode='host-model' check='partial'/>
 
 
------------------------make a bidge netwok----------------------------------
-
+***make a bidge netwok***
+```
 brctl show
 
 virsh net-list --all
@@ -99,7 +99,7 @@ virsh net-autostart --network vmbr0
 
 service libvirtd restart
 
-----------------------------------------------------
+
 virsh net-info default
 
 virsh net-dumpxml default
@@ -108,8 +108,12 @@ virsh net-destroy default
 
 virsh net-start default
 
+```
 
-------------------------------------------------------------------enp1s0
+***Create a bridge with yaml config***
+
+```
+# default network is enp1s0
 
 nano /etc/netplan/00-installer-config.yaml
 
@@ -142,21 +146,10 @@ network:
       dhcp6: no
 
 
-# https://fabianlee.org/2022/09/20/kvm-creating-a-bridged-network-with-netplan-on-ubuntu-22-04/
 
------------------------------------------------------
+sudo netplan app
 
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 --------------Preparing Machine Images for qemu/kvm---------------
