@@ -18,7 +18,7 @@ sudo usermod -aG libvirt oneadmin
 sudo usermod -aG kvm oneadmin
 ```
 
-- ***show group members***
+- ***show group members:***
 
 ```
 getent group libvirt
