@@ -154,8 +154,7 @@ sudo netplan app
 
 ***Preparing Machine Images for qemu/kvm***
 
-
-PnetLab
+# PnetLab qcow2 image
 
 
 scp tar -xfv PNET_4.2.10.ova <user@password:/home/it>
