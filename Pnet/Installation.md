@@ -202,7 +202,8 @@ virt-install \
    --boot hd
 
 ```
--------------------
+- ***Check for ip forward***
+  
 sysctl -p
 
 
