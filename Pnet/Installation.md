@@ -171,10 +171,10 @@ rm -f /opt/ovf/.configured
 reboot
 
 ```
--------------------------------------------------------------------------------------
-#OSINFO
-#https://releases.pagure.org/libosinfo/
 
+- ***OSINFO***
+
+```
 sudo apt install osinfo-db-tools
 wget -O "/tmp/osinfo-db.tar.xz" "https://releases.pagure.org/libosinfo/osinfo-db-20230518.tar.xz"
 sudo osinfo-db-import --local "/tmp/osinfo-db.tar.xz"
@@ -183,6 +183,8 @@ sudo osinfo-db-import --local "/tmp/osinfo-db.tar.xz"
 osinfo-query os
 
 virt-install --name PnetLab --memory 16384 --vcpus 18 --disk /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2,bus=sata --import --os-variant ubuntu18.04 --network default
+
+```
 
 
 --------------------------install on kvm-host-----------------------------------------------------
