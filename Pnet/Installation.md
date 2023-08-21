@@ -262,8 +262,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 reboot
 
 
----------------------------------resize_disk_size--------------------------------------------------
-
+- ***Resize Disk Size***
 #host
 
 du -h /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2
