@@ -165,9 +165,11 @@ qemu-img convert -O qcow2 PNET_4.2.10-disk1.vmdk PNET_4.2.10-disk1.qcow2
 
 - ***Change PNET Lab ip address***
 
+```
 rm -f /opt/ovf/.configured
 reboot
 
+```
 -------------------------------------------------------------------------------------
 #OSINFO
 #https://releases.pagure.org/libosinfo/
