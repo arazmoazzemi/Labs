@@ -1,6 +1,6 @@
 # Install and configure PnetLab
 
-- ***Install kvm***
+- ***Install kvm:***
 
 ```
 apt-get update && apt-get -y upgrade
