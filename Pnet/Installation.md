@@ -151,7 +151,7 @@ sudo netplan app
 ```
 
 
-***Preparing Machine Images for qemu/kvm***
+- ***Preparing Machine Images for qemu/kvm***
 
 # PnetLab qcow2 image
 
