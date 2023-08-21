@@ -243,6 +243,7 @@ reboot
 
 - ***Upgrade to version 5.2.7***
 
+```
 unzip 5.2.7 -d ./upgrade > /dev/null 2>&1
 
 chmod 755 -R upgrade  
@@ -252,6 +253,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 ./upgrade/upgrade
 
 reboot
+```
 
 -----------------------------------------------5.3.11---------------------------------
 
