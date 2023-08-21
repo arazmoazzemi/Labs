@@ -24,12 +24,13 @@ sudo usermod -aG kvm oneadmin
 getent group libvirt
 getent group kvm
 ```
-----------------------nested virtualization--------------------------------
+
+***Enable nested virtualization***
+```
 # Before enabling nested VT feature, power off all running VMs.
 
 sudo modprobe -r kvm_intel
 sudo modprobe kvm_intel nested=1
-
 
 # Enable Nested Virtualization Permanently
 
@@ -50,7 +51,7 @@ Open Virt-manager GUI application and double click the KVM guest in which you wa
 Select the "Copy host CPU configuration" check box in the CPU configuration window and click Apply.
 
 egrep --color -i "svm|vmx" /proc/cpuinfo
------------------------------------------------------------------------------
+```
 
 virsh list --all
 
