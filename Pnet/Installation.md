@@ -208,7 +208,7 @@ sysctl -p
 
 ```
 
--------------------
+- ***Stop iptables***
 
 iptables -P INPUT ACCEPT
 iptables -P OUTPUT ACCEPT
