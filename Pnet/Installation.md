@@ -33,13 +33,13 @@ sudo modprobe -r kvm_intel
 sudo modprobe kvm_intel nested=1
 
 # Enable Nested Virtualization Permanently
-
+```
 sudo nano /etc/modprobe.d/kvm.conf
 options kvm_intel nested=1
 
 cat /sys/module/kvm_intel/parameters/nested
 modinfo kvm_intel | grep -i nested
-
+```
 
 # Enable Nested Feature In KVM Guests Using Virt-manager
 
