@@ -315,15 +315,15 @@ https://packetpushers.net/ubuntu-extend-your-default-lvm-space/
 ---
 
 **Imeges path**
-# upload images with folder name
-
+***upload images with folder name***
 
 /opt/unetlab/addons/qemu
 
 ---
 - Cisco iol
 
-# upload 
+- upload images:
+```
 i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May_2018.bin
 i86bi_LinuxL2-AdvEnterpriseK9-M_152_May_2018.bin
 
@@ -332,6 +332,7 @@ i86bi_LinuxL2-AdvEnterpriseK9-M_152_May_2018.bin
 python2 /opt/unetlab/addons/iol/bin/CiscoIOUKeygen.py
 
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+```
 
 ## update5.0.1
 
