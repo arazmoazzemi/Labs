@@ -315,8 +315,9 @@ https://packetpushers.net/ubuntu-extend-your-default-lvm-space/
 
 - http://dl.nextadmin.net/dl/EVE-NG-image/qemu/
 
+---
 
-------------imeges-----------------------
+**Imeges path**
 # upload images with folder name
 
 
