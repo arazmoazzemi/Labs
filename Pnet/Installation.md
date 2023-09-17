@@ -336,8 +336,9 @@ python2 /opt/unetlab/addons/iol/bin/CiscoIOUKeygen.py
 
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 
----------------update_pnetlab----5.0.1------------
+## update_pnetlab5.0.1
 
+```
 scp 5.0.1.zip root@192.168.31.33:/root
 
 unzip 5.0.1.zip -d ./upgrade > /dev/null 2>&1
@@ -349,6 +350,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 ./upgrade/upgrade
 
 reboot
+```
 
 -------5.2.7-----------
 
