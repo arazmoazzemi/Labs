@@ -266,7 +266,7 @@ reboot
 
 ```
 - ***Resize Disk Size***
-- 
+
 ```
 #host
 
