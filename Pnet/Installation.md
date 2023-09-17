@@ -368,7 +368,7 @@ reboot
 ```
 
 ## update 5.3.11
-
+```
 scp 5.3.11.zip root@192.168.31.33:/root
 
 unzip 5.3.11.zip -d ./upgrade > /dev/null 2>&1
@@ -380,8 +380,8 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 ./upgrade/upgrade
 
 reboot
+```
 
-------------------------------------------------------
 
 
 
