@@ -346,7 +346,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 reboot
 ```
 
-## Update 5.2.7
+### Update 5.2.7
 ```
 scp 5.2.7.zip root@192.168.31.33:/root
 
@@ -357,7 +357,7 @@ find upgrade -type f -print0 | xargs -0 dos2unix 2>&1 > /dev/null 2>&1
 reboot
 ```
 
-## update 5.3.11
+### update 5.3.11
 ```
 scp 5.3.11.zip root@192.168.31.33:/root
 
