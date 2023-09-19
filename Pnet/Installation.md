@@ -43,10 +43,10 @@ modinfo kvm_intel | grep -i nested
 
 # Enable Nested Feature In KVM Guests Using Virt-manager
 
-Copy host CPU configuration
+***Copy host CPU configuration***
 
-Open Virt-manager GUI application and double click the KVM guest in which you want to enable nested VT feature.
- Click on the "Show virtual hardware details" button and go to the "CPUs" section in left menu.
+***Open Virt-manager GUI application and double click the KVM guest in which you want to enable nested VT feature.***
+***Click on the "Show virtual hardware details" button and go to the "CPUs" section in left menu.***
 
 Select the "Copy host CPU configuration" check box in the CPU configuration window and click Apply.
 
