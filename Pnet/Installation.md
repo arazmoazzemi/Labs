@@ -1,4 +1,4 @@
-### Install and configure PnetLab ✏️:
+### Install and configure PnetLab ✏️
 
 - ***Install kvm:***
 
