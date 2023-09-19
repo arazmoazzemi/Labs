@@ -70,11 +70,12 @@ brctl show
 
 virsh net-list --all
 
-# destroy and undefine every bridge networks
+### destroy and undefine every bridge networks
+```bash
 virsh net-destroy default
 virsh net-undefine default
 ip link delete virbr0
-
+```
 
 #add below commands
 
