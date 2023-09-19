@@ -26,7 +26,7 @@ getent group kvm
 ```
 
 - ***Enable nested virtualization:***
-```
+```bash
 # Before enabling nested VT feature, power off all running VMs.
 
 sudo modprobe -r kvm_intel
