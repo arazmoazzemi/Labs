@@ -359,7 +359,7 @@ reboot
 ```
 
 ### update 5.3.11
-```
+```bash
 scp 5.3.11.zip root@192.168.31.33:/root
 
 unzip 5.3.11.zip -d ./upgrade > /dev/null 2>&1
