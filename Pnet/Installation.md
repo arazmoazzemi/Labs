@@ -2,7 +2,7 @@
 
 - ***Install kvm:***
 
-```
+```bash
 apt-get update && apt-get -y upgrade
 apt-get -y install qemu-kvm libvirt-dev libvirt-daemon-system virtinst virt-manager virt-viewer libvirt-clients bridge-utils oz libguestfs-tools uuid-runtime curl linux-source xauth ssh-askpass libosinfo-bin  
 systemctl enable libvirtd && systemctl start libvirtd
