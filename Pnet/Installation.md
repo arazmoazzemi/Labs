@@ -20,7 +20,7 @@ sudo usermod -aG kvm oneadmin
 
 - ***show group members:***
 
-```
+```bash
 getent group libvirt
 getent group kvm
 ```
