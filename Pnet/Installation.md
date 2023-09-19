@@ -25,7 +25,7 @@ getent group libvirt
 getent group kvm
 ```
 
-**Enable nested virtualization:***
+***Enable nested virtualization:***
 ```bash
 # Before enabling nested VT feature, power off all running VMs.
 
@@ -223,7 +223,7 @@ iptables -F
 
 - ***Upgrade to version 5.0.1****
 
-```
+```bash
 unzip 5.0.1 -d ./upgrade > /dev/null 2>&1
 
 chmod 755 -R upgrade  
