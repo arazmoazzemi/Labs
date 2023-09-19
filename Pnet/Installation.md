@@ -10,7 +10,7 @@ systemctl status libvirtd
 ```
 
 - ***Configure KVM:***
-```
+```bash
 sudo usermod -aG libvirt $USER
 sudo usermod -aG kvm $USER
 
