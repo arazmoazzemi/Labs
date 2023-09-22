@@ -60,11 +60,13 @@ virsh list --all
 virsh edit ubuntu-test
 
 virssh dumpxl ubuntu-test
-
+```
+----
 Find "cpu mode" parameter and set its value as "host-model".
 
-<cpu mode='host-model' check='partial'/>
+<<<cpu mode='host-model' check='partial'/>>>
 ----
+
 
 - ***make a bidge netwok:***
 ```bahs
