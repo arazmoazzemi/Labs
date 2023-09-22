@@ -49,8 +49,10 @@ modinfo kvm_intel | grep -i nested
 ***Click on the "Show virtual hardware details" button and go to the "CPUs" section in left menu.***
 
 Select the "Copy host CPU configuration" check box in the CPU configuration window and click Apply.
-
+```bash
 egrep --color -i "svm|vmx" /proc/cpuinfo
+```
+
 ```bash
 
 virsh list --all
