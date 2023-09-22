@@ -41,7 +41,7 @@ cat /sys/module/kvm_intel/parameters/nested
 modinfo kvm_intel | grep -i nested
 ```
 
-#### -Enable Nested Feature In KVM Guests Using Virt-manager: 
+#### - Enable Nested Feature In KVM Guests Using Virt-manager: 
 
 ***Copy host CPU configuration***
 
