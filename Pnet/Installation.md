@@ -72,15 +72,15 @@ brctl show
 
 virsh net-list --all
 
-### Destroy and undefine every bridge networks
+### Destroy and undefine every bridge networks:
 ```bash
 virsh net-destroy default
 virsh net-undefine default
 ip link delete virbr0
 ```
 
-#add below commands
-
+### Add below commands:
+```bash
 nano /etc/libvirt/qemu/networks/vmbr0.xml
 
 <network>
@@ -110,6 +110,7 @@ virsh net-destroy default
 virsh net-start default
 
 ```
+
 - ***Create a bridge with yaml config:***
 
 ```
