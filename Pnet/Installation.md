@@ -64,13 +64,13 @@ virssh dumpxl ubuntu-test
 Find "cpu mode" parameter and set its value as "host-model".
 
 <cpu mode='host-model' check='partial'/>
-
+----
 
 - ***make a bidge netwok:***
-```
+```bahs
 brctl show
-
 virsh net-list --all
+```
 
 ### Destroy and undefine every bridge networks:
 ```bash
