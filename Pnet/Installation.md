@@ -144,8 +144,7 @@ network:
       dhcp6: no
 
 
-
-sudo netplan app
+sudo netplan apply
 
 ```
 
