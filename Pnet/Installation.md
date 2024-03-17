@@ -386,6 +386,8 @@ wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/pnetlabrepo/ishare2/
 # ishare2 search qemu
 # ishare2 search dynamips
 
+ishare2 pull qemu <number>
+
 
 
 ```
