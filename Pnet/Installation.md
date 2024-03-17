@@ -280,24 +280,33 @@ reboot
 sudo qemu-img resize  /var/lib/libvirt/images/PNET_4.2.10.qcow2 +900G
 
 
-
-
-
+```
 
 - ***Resize Disk Size***
 
 ```
-#host
+# VMs Host Server:
 
-du -h /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2
+# Shutdown VM host
+# Delete Snapshots
 
-#shutdown guest
-qemu-img info /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2
+sudo qemu-img info  /var/lib/libvirt/images/PNET_4.2.10.qcow2 
+sudo qemu-img resize  /var/lib/libvirt/images/PNET_4.2.10.qcow2 +900G
 
-qemu-img resize /home/it/nvme01/images/PNET_4.2.10-disk1.qcow2 +200G
+----------------------------------------------------------------------
+# Pnet host
+parted -l
+#type fix
 
+cfdisk -L /dev/vda
+#Resize selected disk
 
+pvresize /dev/vda3
+lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
+```
 
+```
 #VM
 
 - ***Fix disk errors***
