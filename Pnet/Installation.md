@@ -381,6 +381,11 @@ reboot
 
 wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/pnetlabrepo/ishare2/main/ishare2 > /dev/null 2>&1 && chmod +x /usr/sbin/ishare2 && ishare2
 
+# ishare2 search all
+# ishare2 search bin
+# ishare2 search qemu
+# ishare2 search dynamips
+
 
 
 ```
