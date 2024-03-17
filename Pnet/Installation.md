@@ -244,7 +244,7 @@ reboot
 - ***Upgrade to version 5.2.7***
 
 ```
-unzip 5.2.7 -d ./upgrade > /dev/null 2>&1
+unzip 5.2.7.zip -d ./upgrade > /dev/null 2>&1
 
 chmod 755 -R upgrade  
 
