@@ -230,7 +230,7 @@ iptables -F
 - ***Upgrade to version 5.0.1****
 
 ```bash
-unzip 5.0.1 -d ./upgrade > /dev/null 2>&1
+unzip 5.0.1.zip -d ./upgrade > /dev/null 2>&1
 
 chmod 755 -R upgrade  
 
