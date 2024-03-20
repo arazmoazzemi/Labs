@@ -227,7 +227,7 @@ iptables -F
 5.3.11
 ```
 
-- ***Upgrade to version 5.0.1****
+- ***Upgrade to version 5.0.1***
 
 ```bash
 unzip 5.0.1.zip -d ./upgrade > /dev/null 2>&1
