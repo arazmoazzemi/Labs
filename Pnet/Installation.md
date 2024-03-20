@@ -412,6 +412,12 @@ wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/pnetlabrepo/ishare2/
 
 ishare2 pull qemu <number>
 
+ishare2 pull qemu 628
+ishare2 pull qemu 609
+ishare2 pull qemu 597
+ishare2 pull qemu 770
+ishare2 pull qemu 732
+
 ishare2 installed all
 
 ```
