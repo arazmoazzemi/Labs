@@ -419,4 +419,6 @@ ishare2 pull qemu 732
 
 ishare2 installed all
 
+/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+
 ```
